@@ -1,11 +1,10 @@
 body{
     background-color: rgb(23, 221, 178);
 }
-h1{
-    text-align: center;
-}
-fo{
-    padding: auto;
-    margin: auto;
+.subjects { 
+    align-items: center;
     align-content: center;
+padding: 0;
+margin: 0;
+border: 30px;
 }
