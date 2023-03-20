@@ -6,30 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>student grade generator</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap" rel="stylesheet">">
 </head>
 <body>
  
  
     <h1>Student Grade Calculator</h1>
     <!--name plate-->
-    <div id="subjects">
+    <div id="subjects" class="subjects">
     <p>Enter full name:</p>
     <input type="text" id="name">
-
+<br>
     <!-- Subject 1 -->
     <p>Enter marks for python:</p>
     <input type="text" id="python" min="0" max="100">
-    
+    <br>
     <!-- Subject 2 -->
     <p>Enter marks for javascript:</p>
     <input type="text" id="javascript" min="0" max="100">
-    
+    <br>
     <!-- Subject 3 -->
     <p>Enter marks for html:</p>
     <input type="text" id="html" min="0" max="100">
-    
+    <br>
+    <br>
     <!-- Calculate button -->
-    <button onclick="calculateGrade() , validate()">Calculate</button>
+    <button onclick="calculateGrade()" >Calculate</button>
     
     <!-- Output -->
     <p id="totaloutput"></p>
